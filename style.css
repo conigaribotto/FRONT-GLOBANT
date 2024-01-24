@@ -40,9 +40,24 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 30px;
+  border-bottom: 2px solid white; 
+  padding-bottom: 10px;
 }
+.search-icon {
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 250px;
+  cursor: pointer;
+  color: #787474; 
 
+}
+#search .divider {
+  border: none;
+  height: 2px;
+  background-color: white; /* Color blanco de la línea horizontal */
+  margin: 10px 0; /* Ajustar según sea necesario */
+}
 #search input {
   height: 42px;
   border-radius: 14px;
@@ -160,11 +175,14 @@ main {
   font-weight: 300;
 }
 footer {
-  border: 1px solid #009145;
+  border: 1px solid #7525a7;
   min-height: 68px;
-  background-color: #7525a7;
+  background-color: #7525a7;  
 }
+
 footer .container {
+  border-top: 1px solid #ba53fb;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
