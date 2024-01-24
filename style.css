@@ -65,6 +65,7 @@ header {
   width: 300px;
   padding: 20px;
   box-sizing: border-box;
+  
 }
 
 #menu nav ul {
@@ -73,6 +74,7 @@ header {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  
 }
 
 #menu nav ul li {
@@ -85,6 +87,7 @@ header {
   font-weight: 700;
   text-align: left;
   text-decoration: none;
+  
 }
 .nav ul li a:hover {
   text-decoration: underline;
@@ -92,7 +95,7 @@ header {
 /* Hero section */
 section#hero {
   border: 1px solid purple;
-  height: 340px;
+  height: 240px;
   background: url("img/hero_bg.png");
   background-size: cover;
   background-position: top center;
