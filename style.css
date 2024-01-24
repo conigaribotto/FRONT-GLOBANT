@@ -198,9 +198,9 @@ footer .container {
 }
 /* Estilos para la sección de Checkout */
 #checkout {
-  background-color: #ebebeb; /* Color de fondo claro */
-  padding: 33px; /* Espaciado interno */
-  border-radius: 2px; /* Bordes ligeramente redondeados */
+  background-color: #ebebeb; 
+  padding: 33px;
+  border-radius: 2px; 
 }
 
 .checkout-container {
@@ -213,34 +213,34 @@ footer .container {
 }
 
 .checkout-total-price {
-  font-size: 28px; /* Tamaño grande para el precio */
+  font-size: 28px; 
   font-weight: 700;
-  color: #009145; /* Fuente en negrita */
-  margin-top: 20px; /* Espacio por encima del precio */
+  color: #009145; 
+  margin-top: 20px; 
 }
 
 .checkout-description {
-  line-height: 20.4px; /* Espaciado de línea para mejorar la legibilidad */
-  word-wrap: break-word; /* Asegura que el texto no desborde el contenedor */
+  line-height: 20.4px; 
+  word-wrap: break-word; 
 }
 
 .checkout-policy-list {
-  list-style-type: none; /* Elimina los marcadores de lista */
-  margin-bottom: 30px; /* Espacio debajo de la lista */
+  list-style-type: none; 
+  margin-bottom: 30px; 
 }
 
 .checkout-policy-list li {
-  display: flex; /* Alineación horizontal de íconos y texto */
-  margin: 15px 0; /* Espacio entre elementos de la lista */
+  display: flex; 
+  margin: 15px 0; 
 }
 
 .checkout-policy-list li .policy-icon {
-  margin-right: 15px; /* Espacio entre el ícono y el texto */
+  margin-right: 15px; 
 }
 
 .checkout-process .top {
-  display: flex; /* Alinea el input y el botón horizontalmente */
-  margin-bottom: 10px; /* Espacio debajo del grupo superior */
+  display: flex; 
+  margin-bottom: 10px; 
 }
 
 .checkout-process .top input {
