@@ -220,26 +220,32 @@ footer .container {
 /* Estilos para la sección de Checkout */
 #checkout {
   background-color: #ebebeb; 
+  background-color: #ebebeb;
   padding: 33px;
-  border-radius: 2px; 
+  border-radius: 6px;
+  height: fit-content;
 }
 
 .checkout-container {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* Cambio de la dirección del flujo de los elementos */
   align-items: center;
 }
 
 .checkout-product-img {
-  width: 250px; 
+  width: 250px;
   height: auto;
-  margin-right: 20px; 
+  margin-bottom: 20px; /* Mover la imagen más cerca de los elementos debajo */
 }
+
 .checkout-total-label {
   color: #ff3c3c;
-  font-size: 25px; 
-  
+  font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    word-wrap: break-word;
+    margin-bottom: 7px;
 }
 
 .checkout-total-price {
@@ -250,8 +256,8 @@ footer .container {
 }
 
 .checkout-description {
-  line-height: 20.4px; 
-  word-wrap: break-word; 
+  line-height: 20.4px;
+  word-wrap: break-word;
 }
 
 .checkout-policy-list {
@@ -266,6 +272,7 @@ footer .container {
 
 .checkout-policy-list li .policy-icon {
   margin-right: 15px; 
+   width: 15px;
 }
 
 .checkout-process .top {
