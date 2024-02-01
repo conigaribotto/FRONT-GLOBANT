@@ -227,14 +227,14 @@ footer .container {
 }
 
 .checkout-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column; /* Cambio de la dirección del flujo de los elementos */
-  align-items: center;
+  text-align: left;
+  align-items: left;
 }
 
 .checkout-product-img {
   width: 250px;
+  display: flex;
+  align-items: center;
   height: auto;
   margin-bottom: 20px; /* Mover la imagen más cerca de los elementos debajo */
 }
@@ -258,11 +258,18 @@ footer .container {
 .checkout-description {
   line-height: 20.4px;
   word-wrap: break-word;
+  margin-right: 400px;
+  text-align: left;
+  align-items: left;
 }
 
 .checkout-policy-list {
   list-style-type: none; 
   margin-bottom: 30px; 
+  margin-left: 200px;
+  margin-top: -100px;
+  text-align: right;
+  align-items: right;
 }
 
 .checkout-policy-list li {
