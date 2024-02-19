@@ -3,96 +3,237 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Tienda Virtual</title>
   </head>
+
   <body>
     <header>
-      <a href="index.html" id="logo">
-        <img src="img/Screenshot 2024-01-22 201639.png" alt="Logo" />
-      </a>
-      <div id="search">
-        <input type="text" placeholder="Buscar" />
-        <div id="menu">
-          <nav>
+      <div class="container">
+        <div class="search">
+          <div class="logo">
+            <img
+              src="img/Screenshot 2024-01-22 201639.png"
+              width="218"
+              alt="Logo store"
+            />
+          </div>
+          <div class="form">
+            <form><input type="text" placeholder="Search" /></form>
+          </div>
+          <div class="social">
             <ul>
-              <li><a href="#">Ofertas de la semana</a></li>
-              <li><a href="#">Comprar</a></li>
-              <li><a href="#">Costos y tarifas</a></li>
-              <li><a href="#">Mis pedidos</a></li>
-              <li><a href="#">Invita y gana</a></li>
-              <li><a href="#">Garantía de entrega</a></li>
+              <li>
+                <a href="https://facebook.com"
+                  ><img src="img/icons8-facebook-nuevo-50.png" alt="Logo social"
+                /></a>
+              </li>
+              <li>
+                <a href="https://instagram.com"
+                  ><img src="img/icons8-instagram-50.png" alt="Logo social"
+                /></a>
+              </li>
             </ul>
-          </nav>
+          </div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#">Ofertas de la semana</a></li>
+            <li><a href="#">Cómo comprar</a></li>
+            <li><a href="#">Costos y tarifas</a></li>
+            <li><a href="#">Mis pedidos</a></li>
+            <li><a href="#">Invita y gana</a></li>
+            <li><a href="#">Garantía de Entrega</a></li>
+          </ul>
         </div>
       </div>
-      <div id="social-icons">
-        <img src="img/icons8-facebook-nuevo-50.png" alt="Facebook" />
-        <img src="img/icons8-instagram-50.png" alt="Instagram" />
-      </div>
     </header>
-
     <main>
       <div class="container">
-        <!-- Checkout -->
-        <section id="checkout">
-          <img
-          class="checkout-product-img"
-          src="img/mock1.jpg"
-          alt="Nombre del Producto"
-        />
-          <div class="checkout-container">
-  <!-- Descripción del Producto -->
-            <div class="checkout-product-info">
-              <span class="product-title">Macbook Pro 15'4</span>
-              <span class="product-description">Space Gray</span>
+        <div class="columns-container">
+          <div class="product-images-block">
+            <div class="thumbnail-container">
+              <img src="img/mock1.jpg" alt="" />
             </div>
-
-            <!-- Etiqueta Total -->
-            <span class="checkout-total-label">Total:</span>
-
-            <!-- Precio Total -->
-            <h2 class="checkout-total-price">$152.400</h2>
-
-            <!-- Descripción de Impuestos y Políticas -->
-            <p class="checkout-description">
-              Incluye impuesto PAIS y percepción AFIP. Podés recuperar AR$ 50711
-              haciendo la solicitud en AFIP.
-            </p>
-
-            <!-- Lista de Políticas de Envío -->
-            <ul class="checkout-policy-list">
-              <li>
-                <span class="policy-icon"
-                  ><img src="img/truck.png" alt="Truck"
-                /></span>
-                <span class="policy-desc"
-                  >Agrega el producto al carrito para conocer los costos de
-                  envío</span
-                >
-              </li>
-              <li>
-                <span class="policy-icon"
-                  ><img src="img/plane.png" alt="Plane"
-                /></span>
-                <span class="policy-desc"
-                  >Recibí aproximadamente entre 10 y 15 días hábiles,
-                  seleccionando envío normal</span
-                >
-              </li>
-            </ul>
-            <div class="checkout-process">
-              <div class="top">
-                <input type="number" placeholder="Cantidad" />
-                <button class="btn-primary">Comprar</button>
-              </div>
-              <button class="btn-outline">Añadir al Carrito</button>
+            <div class="thumbnail-container">
+              <img src="img/mock2.jpg" alt="" />
             </div>
           </div>
-        </section>
+          <div class="product-description-block">
+            <h1 class="title">
+              Apple iPhone XR,64 GB, Black - Fully Unlocked (Refurbished)
+            </h1>
+            <form class="selector">
+              <fieldset>
+                <label class="label" for="color">Color</label>
+                <select type="text" placeholder="Selecciona un color">
+                  <option value="a">Rojo</option>
+                  <option value="a">Azul</option>
+                </select>
+              </fieldset>
+              <fieldset>
+                <label class="label" for="size">Tamaño</label>
+                <select type="text" placeholder="Selecciona un tamaño">
+                  <option value="a">Mediano</option>
+                  <option value="a">Grande</option>
+                </select>
+              </fieldset>
+            </form>
+            <div class="description">
+              <span class="label">Descripción</span>
+              <p>
+                This phone is unlocked and compatible with any carrier of choice
+                on GSM and CDMA networks Tested for battery health and
+                guaranteed to have a minimum battery capacity of 80%.
+                Successfully passed a full diagnostic test which ensures
+                like-new functionality and removal of any prior-user personal
+                information. The device does not come with headphones or a SIM
+                card. It does include a generic (Mfi certified) charger and
+                charging cable. Inspected and guaranteed to have minimal
+                cosmetic damage, which is not noticeable when the device is held
+                at arm's length.
+              </p>
+              <p>
+                This phone is unlocked and compatible with any carrier of choice
+                on GSM and CDMA networks Tested for battery health and
+                guaranteed to have a minimum battery capacity of 80%.
+                Successfully passed a full diagnostic test which ensures
+                like-new functionality and removal of any prior-user personal
+                information. The device does not come with headphones or a SIM
+                card. It does include a generic (Mfi certified) charger and
+                charging cable. Inspected and guaranteed to have minimal
+                cosmetic damage, which is not noticeable when the device is held
+                at arm's length.
+              </p>
+            </div>
+          </div>
+          <div class="product-checkout-block">
+            <div class="checkout-container">
+              <span class="checkout-total-label">Total:</span>
+              <h2 class="checkout-total-price">$152.400</h2>
+              <p class="checkout-description">
+                Incluye impuesto PAIS y percepción AFIP. Podés recuperar AR$
+                50711 haciendo la solicitud en AFIP.
+              </p>
+              <ul class="checkout-policy-list">
+                <li>
+                  <span class="policy-icon"
+                    ><img src="img/truck.png" alt="Truck"
+                  /></span>
+                  <span class="policy-desc"
+                    >Agrega el producto al carrito para conocer los costos de
+                    envío</span
+                  >
+                </li>
+                <li>
+                  <span class="policy-icon"
+                    ><img src="img/plane.png" alt="Plane"
+                  /></span>
+                  <span class="policy-desc"
+                    >Recibí aproximadamente entre 10 y 15 días hábiles,
+                    seleccionando envío normal</span
+                  >
+                </li>
+              </ul>
+              <div class="checkout-process">
+                <div class="top">
+                  <input type="number" value="1" />
+                  <button class="btn-primary">Comprar</button>
+                </div>
+                <div class="bottom">
+                  <button class="btn-outline">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sales-block">
+          <div class="sales-title">
+            <h2>Productos relacionados</h2>
+          </div>
+          <div class="product-container">
+            <article class="product-card">
+              <img
+                class="product-img"
+                src="img/mock1.jpg"
+                alt="Macbook Pro"
+              />
+              <div class="product-info">
+                <span class="product-title">Macbook Pro 15'4</span>
+                <span class="product-description">Space Gray</span>
+                <div class="product-price-block">
+                  <span class="price">$750.000</span>
+                  <span class="discount">50% Off</span>
+                </div>
+                <div class="product-tax-policy">
+                  Incluye impuesto País y percepción AFIP
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                class="product-img"
+                src="img/mock2.jpg"
+                alt="Macbook Pro"
+              />
+              <div class="product-info">
+                <span class="product-title">Macbook Pro 15'4</span>
+                <span class="product-description">Space Gray</span>
+                <div class="product-price-block">
+                  <span class="price">$750.000</span>
+                  <span class="discount">50% Off</span>
+                </div>
+                <div class="product-tax-policy">
+                  Incluye impuesto País y percepción AFIP
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                class="product-img"
+                src="img/mock1.jpg"
+                alt="Macbook Pro"
+              />
+              <div class="product-info">
+                <span class="product-title">Macbook Pro 15'4</span>
+                <span class="product-description">Space Gray</span>
+                <div class="product-price-block">
+                  <span class="price">$750.000</span>
+                  <span class="discount">50% Off</span>
+                </div>
+                <div class="product-tax-policy">
+                  Incluye impuesto País y percepción AFIP
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img
+                class="product-img"
+                src="img/mock2.jpg"
+                alt="Macbook Pro"
+              />
+              <div class="product-info">
+                <span class="product-title">Macbook Pro 15'4</span>
+                <span class="product-description">Space Gray</span>
+                <div class="product-price-block">
+                  <span class="price">$750.000</span>
+                  <span class="discount">50% Off</span>
+                </div>
+                <div class="product-tax-policy">
+                  Incluye impuesto País y percepción AFIP
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </main>
-
     <footer>
       <div class="container">
         <div class="columns-container">
