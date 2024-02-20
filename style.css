@@ -373,3 +373,72 @@ footer .container {
   margin-bottom: 42px;
   font-size: 40px;
 }
+
+/*---------------------------------------------*/
+/* Container for the cart items */
+.cart-container {
+  display: flex;
+  justify-content: flex; 
+  background-color: #f2f2f2; /* Light gray background color */
+  padding: 20px; /* Add some padding for spacing */
+  border-radius: 8px; //* Align items to the right */
+}
+
+/* Style for individual cart item */
+.cart-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Image style */
+.cart-item img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Style for the cart summary */
+.resume {
+  margin-left: 20px; /* Add some spacing between cart items and summary */
+}
+
+/* Style for the final checkout button */
+.btn-primary {
+  margin-top: 20px; /* Add some spacing between the summary and the button */
+}
+
+/* Style for subtotal */
+.subtotal {
+  margin-bottom: 10px;
+}
+/* Style for individual cart item */
+.product-cart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Image style */
+.product-cart img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Middle section style */
+.product-cart .middle {
+    display: flex;
+    align-items: center;
+}
+
+/* Input number style */
+.product-cart input[type="number"] {
+    width: 50px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+/* Price style */
+.product-cart .price {
+    font-weight: bold;
+}
+
