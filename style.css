@@ -285,7 +285,6 @@ footer .container {
 }
 
 .product-checkout-block {
-  /* Definimos flex 1 las 3 columnas para que ocupen el mismo espacio*/
   flex: 1;
 }
 .checkout-container {
@@ -399,45 +398,39 @@ footer .container {
 
 /* Style for the cart summary */
 .resume {
-  margin-left: 20px; /* Add some spacing between cart items and summary */
+  margin-left: 20px; 
 }
 
 /* Style for the final checkout button */
 .btn-primary {
-  margin-top: 20px; /* Add some spacing between the summary and the button */
+  margin-top: 20px; 
 }
 
-/* Style for subtotal */
 .subtotal {
   margin-bottom: 10px;
 }
-/* Style for individual cart item */
 .product-cart {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
 
-/* Image style */
 .product-cart img {
     width: 80px;
     height: auto;
     margin-right: 10px;
 }
 
-/* Middle section style */
 .product-cart .middle {
     display: flex;
     align-items: center;
 }
 
-/* Input number style */
 .product-cart input[type="number"] {
-    width: 50px; /* Adjust as needed */
+    width: 50px; 
     margin-right: 10px;
 }
 
-/* Price style */
 .product-cart .price {
     font-weight: bold;
 }
